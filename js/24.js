@@ -26,3 +26,35 @@ for(let i=0; i < carrito.length; i++) {
     console.log(carrito[i].nombre);
     console.log(carrito[i].precio);
 }
+
+//WHILE LOOP
+
+// let i = 1;
+
+// while (i < 10) {
+//     console.log(i);
+
+//     i++;
+// }
+
+// let i = 1
+
+// while(i <= 100) {
+//     if(i % 2 === 0) {
+//         console.log(`El numero es ${i} PAR`);
+//     } else {
+//         console.log(`El numero ${i} es IMPAR`);
+//     }
+
+//     i++;
+// }
+
+//DO WHILE LOOP
+
+let i = 0;
+
+do{
+    console.log(i);
+
+    i++;
+} while (i < 10);
